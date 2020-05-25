@@ -5,15 +5,15 @@ from logging import getLogger
 import sub
 
 
-log = getLogger(__name__)
+logger = getLogger(__name__)
 
 
 @hydra.main(config_path='conf/config.yaml')
 def main(cfg):
-    print(cfg.pretty())
+    logger.info(cfg.pretty())
     print(cfg)
-    log.debug('main')
-    log.info('main')
+    logger.debug('main')
+    logger.info('main')
     sub.sub()
 
 
