@@ -1,0 +1,17 @@
+[2020-05-25 10:08:48,994][__main__][INFO] - 
+dict:
+  a: a
+  b: b
+dict_list:
+- a: a
+- b: b
+list:
+- a
+- b
+mix:
+- a: a
+  b: b
+string: a b
+
+[2020-05-25 10:08:48,994][__main__][INFO] - main
+[2020-05-25 10:08:48,994][sub][INFO] - sub

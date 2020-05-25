@@ -1,0 +1,13 @@
+dict:
+  a: a
+  b: b
+dict_list:
+- a: a
+- b: b
+list:
+- a
+- b
+mix:
+- a: a
+  b: b
+string: a b
