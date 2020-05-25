@@ -1,0 +1,15 @@
+string:
+  a
+  b
+dict:
+  a: a
+  b: b
+list:
+  - a
+  - b
+dict_list:
+  - a: a
+  - b: b
+mix:
+  - a: a
+    b: b
