@@ -11,7 +11,6 @@ logger = getLogger(__name__)
 @hydra.main(config_path='conf/config.yaml')
 def main(cfg):
     logger.info(cfg.pretty())
-    print(cfg)
     logger.debug('main')
     logger.info('main')
     sub.sub()
